@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "UFCGMatrizEco",
+    "name": "MinhaGradeEconomia",
     "slug": "UFCGMatrizEco",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/icone/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -21,7 +21,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.lucas_bitx.UFCGMatrizEco"
+      "package": "com.lucas_bitx.MinhaGradeEconomia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
