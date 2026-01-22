@@ -18,70 +18,67 @@ export default function App() {
 
   const [cadeiras,setCadeiras] = useState({
           Primeiro: [
-              {nome: 'Introdução à Economia',id: '1', requisitos: [], estado : 0},
-              {nome: 'Métodos Quantitativos I',id: '2', requisitos: [], estado : 0},
-              {nome: 'Introdução às Ciências Sociais',id: '3', requisitos: [], estado : 0},
-              {nome: 'Português Instrumental ',id: '4', requisitos: [], estado : 0},
-              {nome: 'Formação Econômica Geral',id: '5', requisitos: [], estado : 0}
+              {nome: 'Introdução à Microeconomia e Macroeconomia',id: '1', requisitos: [], estado : 0},
+              {nome: 'Pensamento Econômico I ',id: '2', requisitos: [], estado : 0},
+              {nome: 'Formação Econômica Geral ',id: '3', requisitos: [], estado : 0},
+              {nome: 'Contabilidade Geral',id: '4', requisitos: [], estado : 0},
+              {nome: 'Matemática Financeira',id: '5', requisitos: [], estado : 0}
 
           ],
           Segundo : [
-              {nome: 'Economia Clássica',id: '6', requisitos: [], estado : 0},
-              {nome: 'Métodos Quantitativos II',id: '7', requisitos: ['2'], estado : 0},
-              {nome: 'Estatística',id: '8', requisitos: ['2'], estado : 0},
-              {nome: 'Contabilidade Social',id: '9', requisitos: [], estado : 0},
-              {nome: 'Sistemas Econômicos',id: '10', requisitos: [], estado : 0}
+              {nome: 'Pensamento Econômico II ',id: '6', requisitos: ['2'], estado : 0},
+              {nome: 'Métodos Quantitativos I',id: '7', requisitos: [], estado : 0},
+              {nome: 'Economia Política I',id: '8', requisitos: ['2'], estado : 0},
+              {nome: 'Finanças Corporativas I',id: '9', requisitos: ['5','4'], estado : 0},
+              {nome: 'Formação Econômica do Brasil',id: '10', requisitos: ['3'], estado : 0}
 
           ],
           Terceiro : [
-            {nome: 'Economia Marxista I',id: '11', requisitos: ['6'], estado : 0},
-            {nome: 'Teoria Microeconômica I',id: '12', requisitos: ['7'], estado : 0},
-            {nome: 'Estatística Econômica',id: '13', requisitos: ['8'], estado : 0},
-            {nome: 'Teoria Macroeconômica I ',id: '14', requisitos: ['9'], estado : 0},
-            {nome: 'Formação Econômica do Brasil I',id: '15', requisitos: [], estado : 0}
+            {nome: 'Economia Política II',id: '11', requisitos: ['8'], estado : 0},
+            {nome: 'Métodos Quantitativos II',id: '12', requisitos: ['7'], estado : 0},
+            {nome: 'Contabilidade Social',id: '13', requisitos: ['1'], estado : 0},
+            {nome: 'Análise de Dados I ',id: '14', requisitos: [], estado : 0},
+            {nome: 'Finanças Corporativas II',id: '15', requisitos: ['9'], estado : 0}
 
           ],
           Quarto: [
-            {nome: 'Economia Marxista II',id: '16', requisitos: ['11'], estado : 0},
-            {nome: 'Teoria Microeconômica II',id: '17', requisitos: ['12'], estado : 0},
-            {nome: 'Econometria I',id: '18', requisitos: ['13'], estado : 0},
-            {nome: 'Teoria Macroeconômica II ',id: '19', requisitos: ['12'], estado : 0},
-            {nome: 'Formação Econômica do Brasil II ',id: '20', requisitos: ['15'], estado : 0}
+            {nome: 'Economia, Sociedade e Meio Ambiente',id: '16', requisitos: ['1','3'], estado : 0},
+            {nome: 'Microeconomia I',id: '17', requisitos: ['1','12'], estado : 0},
+            {nome: 'Análise de Dados II ',id: '18', requisitos: ['14',], estado : 0},
+            {nome: 'Macroeconomia I',id: '19', requisitos: ['4','12'], estado : 0},
+            {nome: 'Economia Brasileira Contemporânea I',id: '20', requisitos: ['1','10'], estado : 0}
           ],
           Quinto: [
-            {nome: 'Economia Internacional I ',id: '21', requisitos: ['14','10'], estado : 0},
-            {nome: 'Teoria Microeconômica III',id: '22', requisitos: ['17'], estado : 0},
-            {nome: 'Contabilidade e Análise de Balanço',id: '23', requisitos: [], estado : 0},
-            {nome: 'Teoria Macroeconômica III ',id: '24', requisitos: ['19'], estado : 0},
-            {nome: 'Desenvolvimento SócioEconômico I',id: '25', requisitos: [], estado : 0}
+            {nome: 'Economia do Nordeste e da Paraíba',id: '21', requisitos: ['20'], estado : 0},
+            {nome: 'Microeconomia II',id: '22', requisitos: ['17'], estado : 0},
+            {nome: 'Macroeconomia II ',id: '23', requisitos: ['19'], estado : 0},
+            {nome: 'Economia Brasileira Contemporânea II',id: '24', requisitos: ['20'], estado : 0},
+            {nome: 'Econometria I',id: '25', requisitos: ['18','7'], estado : 0}
           ],
           Sexto: [
-            {nome: 'Economia Internacional II',id: '26', requisitos: ['21'], estado : 0},
-            {nome: 'Economia do Setor Público',id: '27', requisitos: ['24'], estado : 0},
-            {nome: 'Economia Brasileira e Contemporânea I',id: '28', requisitos: [], estado : 0},
-            {nome: 'Economia Monetária',id: '29', requisitos: ['14'], estado : 0},
-            {nome: 'Desenvolvimento SócioEconômico II',id: '30', requisitos: ['25'], estado : 0}
+            {nome: 'Economia Internacional I',id: '26', requisitos: ['22','19'], estado : 0},
+            {nome: 'Elaboração e Análise de Projetos',id: '27', requisitos: ['9','22'], estado : 0},
+            {nome: 'Microeconomia III',id: '28', requisitos: ['22',], estado : 0},
+            {nome: 'Macroeconomia III',id: '29', requisitos: ['23'], estado : 0},
+            {nome: 'Economia do Setor Público',id: '30', requisitos: ['19'], estado : 0}
           ],
           Setimo: [
-            {nome: 'História do Pensamento Econômico',id: '31', requisitos: ['16'], estado : 0},
-            {nome: 'Economia Industrial ',id: '32', requisitos: ['22'], estado : 0},
-            {nome: 'Economia Brasileira e Contemporânea II ',id: '33', requisitos: ['28'], estado : 0},
-            {nome: 'Métodos e Técnicas de Pesquisa em Economia ',id: '34', requisitos: [], estado : 0},
-            {nome: 'Agricultura e Desenvolvimento Econômico',id: '35', requisitos: [], estado : 0}
+            {nome: 'Economia Internacional II',id: '31', requisitos: ['26'], estado : 0},
+            {nome: 'Desenvolvimento Socioeconômico I',id: '32', requisitos: ['11'], estado : 0},
+            {nome: 'Macroeconomia IV',id: '33', requisitos: ['29'], estado : 0},
+            {nome: 'Economia Monetária',id: '34', requisitos: ['23'], estado : 0},
+            {nome: 'Métodos e Técnicas de Pesquisa em Economia',id: '35', requisitos: ['18'], estado : 0}
           ],
           Oitavo: [
-            {nome: 'Elaboração e Análise de Projetos ',id: '36', requisitos: ['22','23'], estado : 0},
-            {nome: 'Economia do Nordeste',id: '37', requisitos: [], estado : 0},
-            {nome: 'Projeto de Monografia',id: '38', requisitos: ['34'], estado : 0},
-            {nome: 'Optativa 1 ',id: '39', requisitos: [], estado : 0},
-            {nome: 'Optativa 2',id: '40', requisitos: [], estado : 0}
+            {nome: 'Desenvolvimento Socioeconômico II',id: '36', requisitos: ['32'], estado : 0},
+            {nome: 'Economia Industrial',id: '37', requisitos: ['28'], estado : 0},
+            {nome: 'Optativa I',id: '38', requisitos: [], estado : 0},
+            {nome: 'Trabalho de Conclusão de Curso – TCC I',id: '39', requisitos: ['35'], estado : 0}
           ],
           Nono : [
-            {nome: 'Monografia',id: '41', requisitos: ['38'], estado : 0},
-            {nome: 'Optativa 3',id: '42', requisitos: [], estado : 0},
-            {nome: 'Optativa 4',id: '43', requisitos: [], estado : 0},
-            {nome: 'Optativa 5',id: '44', requisitos: [], estado : 0},
-            {nome: 'Optativa 6',id: '45', requisitos: [], estado : 0}
+            {nome: 'Trabalho de Conclusão de Curso – TCC II',id: '40', requisitos: ['39'], estado : 0},
+            {nome: 'Optativa II ',id: '41', requisitos: [], estado : 0},
+            {nome: 'Optativa III',id: '42', requisitos: [], estado : 0}
           ]
           
       });

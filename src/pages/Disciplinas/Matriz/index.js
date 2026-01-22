@@ -34,7 +34,7 @@ export default function Matriz ({ data,onPress,semestre,cadeiras }) {
    
     function trocarCor(){
     if(requisitosVerify()) {
-        return data.estado==0 ? 'gray' : 'red'
+        return data.estado==0 ? 'gray' : 'blue'
     }
 
     
