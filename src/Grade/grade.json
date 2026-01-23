@@ -1,4 +1,4 @@
-const grade={
+{
           Primeiro: [
               {nome: 'Introdução à Microeconomia e Macroeconomia',id: '1', requisitos: [], estado : 0},
               {nome: 'Pensamento Econômico I ',id: '2', requisitos: [], estado : 0},

@@ -6,7 +6,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import React, {useEffect, useState} from 'react';
 import Disciplinas from './src/pages/Disciplinas';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import grade from './src/Grade/grade.js'
+import grade from './src/Grade/grade.json'
 
 const Drawer= createDrawerNavigator();
 
