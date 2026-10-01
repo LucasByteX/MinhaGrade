@@ -4,13 +4,12 @@ Aplicativo Android que mostra quais disciplinas você pode cursar. Você marca a
 
 A primeira versão traz a grade completa do curso de **Economia da UFCG**: 42 disciplinas distribuídas em 9 períodos.
 
-<!-- TODO: adicionar 2 prints (um período com disciplinas concluídas/liberadas/bloqueadas e o menu lateral) -->
-<!--
-<p align="center">
-  <img src="docs/periodo.png" width="220">
-  <img src="docs/menu.png" width="220">
-</p>
--->
+<table>
+  <tr>
+    <td align="center"><img src="docs/periodo.png" width="220"><br><sub>Disciplinas do período</sub></td>
+    <td align="center"><img src="docs/menu.png" width="220"><br><sub>Menu de períodos</sub></td>
+  </tr>
+</table>
 
 ## Funcionalidades
 
