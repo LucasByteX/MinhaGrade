@@ -6,6 +6,7 @@ A primeira versão traz a grade completa do curso de **Economia da UFCG**: 42 di
 
 <table>
   <tr>
+    <td align="center"><img src="docs/estados.png" width="220"><br><sub>Concluída, liberada e bloqueada</sub></td>
     <td align="center"><img src="docs/periodo.png" width="220"><br><sub>Disciplinas do período</sub></td>
     <td align="center"><img src="docs/menu.png" width="220"><br><sub>Menu de períodos</sub></td>
   </tr>
@@ -16,9 +17,9 @@ A primeira versão traz a grade completa do curso de **Economia da UFCG**: 42 di
 - **Navegação por período**: menu lateral com os 9 períodos do curso
 - **Marcar disciplinas concluídas** com um toque
 - **Status visual de cada disciplina**:
-  - 🔵 azul: concluída
-  - ⚪ cinza: liberada (pré-requisitos cumpridos)
-  - transparente: bloqueada (ao tocar, o app avisa que faltam pré-requisitos)
+  - **Azul**: concluída
+  - **Cinza**: liberada (pré-requisitos cumpridos)
+  - **Sem preenchimento**: bloqueada (ao tocar, o app avisa que faltam pré-requisitos)
 - **Desmarcação em cascata**: se você desmarca uma disciplina, as que dependiam dela também são desmarcadas
 - **Progresso salvo no celular**: as marcações ficam guardadas mesmo depois de fechar o app
 
